@@ -32,8 +32,8 @@ namespace Demo
     {
         private int moveNumber = 0;
 
-        public DashasSolver(string name, string code, string server)
-            : base(name, code, server)
+        public DashasSolver(string server)
+            : base(server)
         {            
         }
 
