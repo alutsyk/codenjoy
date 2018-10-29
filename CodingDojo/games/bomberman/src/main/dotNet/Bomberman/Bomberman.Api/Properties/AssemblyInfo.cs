@@ -27,7 +27,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Bomberman C# Client Api")]
-[assembly: AssemblyDescription("Created by Evgen Rezoglazov (evgen.rezoglazov@globallogic.com). Updated by Fedorenko Stanislav. Updated by Oleksandr Baglai")]
+[assembly: AssemblyDescription("Created by Evgen Rezoglazov (evgen.rezoglazov@globallogic.com). Updated by Fedorenko Stanislav. Updated by Oleksandr Baglai.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Codenjoy")]
 [assembly: AssemblyProduct("Codenjoy Bomberman C# Client Api")]
