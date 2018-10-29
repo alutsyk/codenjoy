@@ -104,7 +104,7 @@ namespace Bomberman.Api
                             code);
         }
 
-        protected abstract string Get(Board gameBoard);
+        protected internal abstract string Get(Board gameBoard);
         
         /// <summary>
         /// Starts bomberman's client shutdown.

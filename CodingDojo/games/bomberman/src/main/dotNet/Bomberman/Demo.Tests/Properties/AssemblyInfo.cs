@@ -2,7 +2,7 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("Bomberman C# Client")]
+[assembly: AssemblyTitle("Bomberman C# Demo Tests")]
 [assembly: AssemblyDescription("Created by Oleksandr Lutsyk (aalutsyk@gmail.com)")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Codenjoy")]
@@ -13,7 +13,7 @@ using System.Runtime.InteropServices;
 
 [assembly: ComVisible(false)]
 
-[assembly: Guid("02c7eca6-7d22-458a-b670-c5ba23176289")]
+[assembly: Guid("3e222c57-56f3-4259-a01c-bf5c144670d6")]
 
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]

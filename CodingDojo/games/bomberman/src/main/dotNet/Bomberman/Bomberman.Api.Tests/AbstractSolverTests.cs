@@ -2,7 +2,7 @@
 using Bomberman.Api;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Tests.Bomberman.Api
+namespace Bomberman.Api.Tests
 {
     [TestClass]
     public class AbstractSolverTests
@@ -12,11 +12,11 @@ namespace Tests.Bomberman.Api
         {
             var serverUrl = "http://127.0.0.1:8080/codenjoy-contest/board/player/player@mail.com?code=12345678901234567890";
 
-            var webSocketUrl = "ws://127.0.0.1:8080/codenjoy-contest/ws?user=player@mail.com&code=12345678901234567890";
-
             var result = AbstractSolver.GetWebSocketUrl(serverUrl);
 
-            Assert.AreEqual(webSocketUrl, result);
+            var expectedWebSocketUrl = "ws://127.0.0.1:8080/codenjoy-contest/ws?user=player%40mail.com&code=12345678901234567890";
+
+            Assert.AreEqual(expectedWebSocketUrl, result);
         }
     }
 }

@@ -44,7 +44,7 @@ namespace Demo
         {
             var action = $"{Direction.Act},{Direction.Up}";
 
-            if (moveNumber++ % 7 == 0)
+            if (moveNumber++ % 7 != 0)
             {
                 action = Direction.Up.ToString();
             }
